@@ -57,7 +57,70 @@
     </div>
   </nav>
 
-  <h1>Hello World.</h1>
+  <div class="row container">
+    <!-- Portable -->
+    <div class="col s12 m6">
+
+      <div class="card medium hide-on-med-and-down">
+        <div class="card-image valign-wrapper">
+          <img class="responsive-img valign" src="http://bbquepits.com/images/PORTABLE_TRAILER_BBQ_SMOKERS_R/ts30x156_portable_bbq_smoker_R/ts30x156_portable_bbq_smoker_R_2.jpg">
+          <span class="card-title">Portable Trailer BBQ Pits</span>
+        </div>
+        <div class="card-content">
+          <p>1/4" Steel Plate, 3500# axle, brand new wheels, and trailer parts.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Learn more <i class="small material-icons">info</i></a>
+        </div>
+      </div>
+
+      <div class="card small hide-on-large-only">
+        <div class="card-image valign-wrapper">
+          <img class="responsive-img valign" src="http://bbquepits.com/images/PORTABLE_TRAILER_BBQ_SMOKERS_R/ts30x156_portable_bbq_smoker_R/ts30x156_portable_bbq_smoker_R_2.jpg">
+          <span class="card-title">Portable Trailer BBQ Pits</span>
+        </div>
+        <div class="card-content">
+          <p>1/4" Steel Plate, 3500# axle, brand new wheels, and trailer parts.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Learn more <i class="small material-icons">info</i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Backyard -->
+    <div class="col s12 m6">
+
+      <div class="card medium hide-on-med-and-down">
+        <div class="card-image valign-wrapper">
+          <img class="responsive-img valign" src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OC20X48-closed.jpg">
+          <span class="card-title">Backyard BBQ Pits</span>
+        </div>
+        <div class="card-content">
+          <p>1/4" or 3/16" Steel Plate. All welded construction (No bolts).</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Learn more <i class="small material-icons">info</i></a>
+        </div>
+      </div>
+      
+      <div class="card small hide-on-large-only">
+        <div class="card-image valign-wrapper">
+          <img class="responsive-img valign" src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OC20X48-closed.jpg">
+          <span class="card-title">Backyard BBQ Pits</span>
+        </div>
+        <div class="card-content">
+          <p>1/4" or 3/16" Steel Plate. All welded construction (No bolts).</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Learn more <i class="small material-icons">info</i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 
 
   
@@ -68,12 +131,16 @@
 
   <script>
     $(document).ready(function(){
+
       $(".button-collapse").sideNav({
         menuWidth: 200, // Default is 240
         edge: 'left', // Choose the horizontal origin
         closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
         draggable: true // Choose whether you can drag to open on touch screens
       });
+
+      $('.materialboxed').materialbox();
+
     });
   </script>
 
