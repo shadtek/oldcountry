@@ -12,7 +12,7 @@ Home
 	Delivery Info
 	Smoke Ring
 Products
-	Portable - aka trailer
+	Portable Trailers
 		BBQ Smokers
 		BBQ Smokers - Insulated
 		BBQ Grills

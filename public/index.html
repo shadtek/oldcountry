@@ -47,15 +47,36 @@
     <div class="nav-wrapper brown lighten-5">
       <a href="#" class="brand-logo left flow-text">Old Country BBQ Pits</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="home.html" class="brown-text lighten-2">Home</a></li>
-        <li><a href="404.html" class="brown-text lighten-2">Products</a></li>
+        <li><a href="/" class="brown-text lighten-2">Home</a></li>
+        <li><a href="#" class="brown-text lighten-2">Contact Us</a></li>
+        <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown1'>Trailer Products</a></li>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
+          <li><a class="waves-effect" href="#">BBQ Smokers - Insulated</a></li>
+          <li><a class="waves-effect" href="#">BBQ Grills</a></li>
+          <li><a class="waves-effect" href="#">Rotisseries</a></li>
+        </ul>
+        <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Backyard Products</a></li>
+        <ul id='dropdown2' class='dropdown-content'>
+          <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
+          <li><a class="waves-effect" href="#">BBQ Grills</a></li>
+          <li><a class="waves-effect" href="#">BBQ Pits</a></li>
+        </ul>
       </ul>
       <ul id="slide-out" class="side-nav brown lighten-5">
         <li><a href="/">Home</a></li>
-        <li><a href="#!">Contact Us</a></li>
+        <li><a href="#">Contact Us</a></li>
         <li><div class="divider"></div></li>
-        <li><a class="waves-effect" href="#!">Portable Trailers</a></li>
-        <li><a class="waves-effect" href="#!">Backyard Smokers</a></li>
+        <li><a class="subheader">Trailer Products</a></li>
+        <li><a href="#">BBQ Smokers</a></li>
+        <li><a href="#">BBQ Smokers - Insulated</a></li>
+        <li><a href="#">BBQ Grills</a></li>
+        <li><a href="#">Rotisseries</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Backyard Products</a></li>
+        <li><a href="#">BBQ Smokers</a></li>
+        <li><a href="#">BBQ Grills</a></li>
+        <li><a href="#">BBQ Pits</a></li>
       </ul>
       <a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons brown-text lighten-2">menu</i></a>
     </div>
@@ -158,6 +179,16 @@
       });
 
       $('.materialboxed').materialbox();
+
+      $('.dropdown').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrain_width: true, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: true, // Displays dropdown below the button
+        alignment: 'left' // Displays dropdown with edge aligned to the left of button
+      });
 
     });
   </script>
