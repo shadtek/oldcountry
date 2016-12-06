@@ -6,10 +6,10 @@ Home
 		Portable
 		Backyard
 	Text Area
+	Contact Info
 	About us
 	Testimonials
 	Delivery Info
-	Contact Us
 	Smoke Ring
 Products
 	Portable - aka trailer

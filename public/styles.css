@@ -3,6 +3,7 @@
 .brand-logo.left {
 	font-family: 'Ultra', serif;
 	color: red;
+	text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
 }
 
 @media screen and (max-width: 767px) {
