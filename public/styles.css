@@ -18,6 +18,9 @@ h5, h6, p, li, a {
 a {
 	color: #e65100 !important;
 }
+.subheader {
+	padding-left: 1rem;
+}
 
 .dropdown-content li>a {
 	font-size: 1rem !important;
