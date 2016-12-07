@@ -7,12 +7,24 @@ body {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.9) 100%), url('background.jpg');
 }
 
-p {
+h5, h6, p, li, a {
 	font-family: 'Oxygen', sans-serif;
 }
 
 .exclaim {
 	color: #efebe9;
+}
+
+a {
+	color: #e65100 !important;
+}
+
+.dropdown-content li>a {
+	font-size: 1rem !important;
+}
+
+.nav-wrapper {
+	position: fixed;
 }
 
 .brand-logo.left {
