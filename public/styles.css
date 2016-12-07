@@ -4,7 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.6) 0%,rgba(255, 255, 255,0.6) 100%), url('background.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.9) 100%), url('background.jpg');
 }
 
 .brand-logo.left {
