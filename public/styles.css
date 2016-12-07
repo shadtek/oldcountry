@@ -7,13 +7,21 @@ body {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.9) 100%), url('background.jpg');
 }
 
+p {
+	font-family: 'Oxygen', sans-serif;
+}
+
+.exclaim {
+	color: #efebe9;
+}
+
 .brand-logo.left {
 	font-family: 'Ultra', serif;
-	color: red;
-	text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
-	/*background: linear-gradient(grey, red);
+	/*color: red;
+	text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);*/
+	background: linear-gradient(grey, red);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;*/
+	-webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 767px) {
@@ -28,4 +36,3 @@ body {
 	}
 }
 
-rgb(255, 255, 255)
