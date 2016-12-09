@@ -1,5 +1,4 @@
-body { 
-  /*background: url('background.jpg') no-repeat center center fixed*/
+body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,8 +31,6 @@ a {
 
 .brand-logo.left {
 	font-family: 'Ultra', serif;
-	/*color: red;
-	text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);*/
 	background: linear-gradient(grey, red);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
