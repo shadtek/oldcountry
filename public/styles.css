@@ -4,6 +4,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.9) 100%), url('background.jpg');
+  background-repeat: no-repeat;
 }
 
 h5, h6, p, li, a {
@@ -48,3 +49,8 @@ a {
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.footer-copyright {
+		overflow: visible !important;
+	}
+}
