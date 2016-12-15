@@ -44,93 +44,92 @@
 </head>
 
 <body ng-controller="mainCtrl">
-<header>
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper brown lighten-5">
-        <a href="/" class="greyred brand-logo left flow-text"><i class="tiny material-icons">grade</i>Old Country BBQ Pits<i class="right tiny material-icons">grade</i></a>
-        <!-- Desktop Nav -->
-        <ul class="right hide-on-med-and-down">
-          <li><a href="/" class="brown-text lighten-2">Home</a></li>
-          <li><a href="#" class="brown-text lighten-2">Contact Us</a></li>
-          <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown1'>Trailer Products</a></li>
-          <ul id='dropdown1' class='dropdown-content brown lighten-5'>
-            <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
-            <li><a class="waves-effect" href="#">BBQ Smokers - Insulated</a></li>
-            <li><a class="waves-effect" href="#">BBQ Grills</a></li>
-            <li><a class="waves-effect" href="#">Rotisseries</a></li>
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper brown lighten-5">
+          <a href="/" class="greyred brand-logo left flow-text"><i class="tiny material-icons">grade</i>Old Country BBQ Pits<i class="right tiny material-icons">grade</i></a>
+          <!-- Desktop Nav -->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/" class="brown-text lighten-2">Home</a></li>
+            <li><a href="#" class="brown-text lighten-2">Contact Us</a></li>
+            <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown1'>Trailer Products</a></li>
+            <ul id='dropdown1' class='dropdown-content brown lighten-5'>
+              <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
+              <li><a class="waves-effect" href="#">BBQ Smokers - Insulated</a></li>
+              <li><a class="waves-effect" href="#">BBQ Grills</a></li>
+              <li><a class="waves-effect" href="#">Rotisseries</a></li>
+            </ul>
+            <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Backyard Products</a></li>
+            <ul id='dropdown2' class='dropdown-content brown lighten-5'>
+              <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
+              <li><a class="waves-effect" href="#">BBQ Grills</a></li>
+              <li><a class="waves-effect" href="#">BBQ Pits</a></li>
+            </ul>
           </ul>
-          <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Backyard Products</a></li>
-          <ul id='dropdown2' class='dropdown-content brown lighten-5'>
-            <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
-            <li><a class="waves-effect" href="#">BBQ Grills</a></li>
-            <li><a class="waves-effect" href="#">BBQ Pits</a></li>
-          </ul>
-        </ul>
-        <a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons brown-text lighten-2">menu</i></a>
-      </div>
-    </nav>
-  </div>
-  <!-- Mobile Nav -->
-  <ul id="slide-out" class="side-nav brown lighten-5">
-    <li><a href="/">Home</a></li>
-    <li><a href="#">Contact Us</a></li>
-    <li><div class="divider"></div></li>
-    <li class="subheader brown-text lighten-2">Trailer Products</li>
-    <li><div class="divider"></div></li>
-    <li><a href="#">BBQ Smokers</a></li>
-    <li><a href="#">BBQ Insulated</a></li>
-    <li><a href="#">BBQ Grills</a></li>
-    <li><a href="#">Rotisseries</a></li>
-    <li><div class="divider"></div></li>
-    <li class="subheader brown-text lighten-2">Backyard Products</li>
-    <li><div class="divider"></div></li>
-    <li><a href="#">BBQ Smokers</a></li>
-    <li><a href="#">BBQ Grills</a></li>
-    <li><a href="#">BBQ Pits</a></li>
-  </ul>
-</header>
-
-<ui-view></ui-view>
-
-<footer class="page-footer black">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Contact Us</h5>
-        <p class="grey-text text-lighten-4">Old Country BBQ Pits</p>
-        <p class="grey-text text-lighten-4"><a href="https://goo.gl/Jn7oOk">6700 Santa Maria Ave. Laredo, Texas 78041</a></p>
-        <p class="grey-text text-lighten-4"><a href="tel:9562866389">(956) 286-6389</a></p>
-        <p class="grey-text text-lighten-4"><a href="mailto:smokers@oldcountrybbqpits.com">smokers@oldcountrybbqpits.com</a></p>
-        <p><img class="responsive-img" src="http://bbquepits.com/mc_vs_ax_accpt_h_023_gif.gif"></p>
-        <div class="divider"></div>
-        <h5 class="white-text">Links</h5>
-        <p class="grey-text text-lighten-4"><a href="http://www.bbqtv.com/">BQTV.com</a> > is the source for BBQ competition coverage, > cooking tips, sauces, rubs, grills, equipment and > anything to do with barbecue. BBQTV also > features a free newsletter, the BBQ Mall and > WebCasts of BBQTV programs</p>
-        <p class="grey-text text-lighten-4"><a href="http://www.jurassicpork.com/">Jurrassic Pork.com</a> > Best Site for BBQ Insight<br><a href="http://www.jurassicpork.com/"><img class="responsive-img" width="100" src="http://bbquepits.com/porkfront6.jpg"></a></p>
-      </div>
-      <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">This site is a member of <a target="_blank" href="http://www.thesmokering.com/">The Smoke Ring<br><img class="responsive-img" src="http://bbquepits.com/smokering.gif"></a></h5>
-        <p class="white-text">A service of <a href="http://www.netrelief.com/">netRelief, Inc.</a></p>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">skip_next</i> Next</a></li>
-          <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">fast_forward</i> Skip Next</a></li>
-          <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">forward_5</i> Next 5</a></li>
-          <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">skip_previous</i> Prev</a></li>
-          <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">fast_rewind</i> Skip Prev</a></li>
-          <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">shuffle</i> Random Site</a></li>
-        </ul>
-        <p class="grey-text text-lighten-3"><a href="http://www.thesmokering.com/join.jsp">Join the ring</a> or <a href="http://www.thesmokering.com/index.jsp">browse</a> a complete <a href="http://www.thesmokering.com/index.jsp">list</a> of The Smoke Ring members</p>
-        <p class="grey-text text-lighten-3">If you discover problems with any of <a target="_blank" href="http://www.thesmokering.com/">The Smoke Ring</a> sites, please notify the <a target="_blank" href="http://www.thesmokering.com/contactus.jsp">Ringmaster</a></p>
-      </div>
+          <a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons brown-text lighten-2">menu</i></a>
+        </div>
+      </nav>
     </div>
-  </div>
-  <div class="footer-copyright">
+    <!-- Mobile Nav -->
+    <ul id="slide-out" class="side-nav brown lighten-5">
+      <li><a href="/">Home</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><div class="divider"></div></li>
+      <li class="subheader brown-text lighten-2">Trailer Products</li>
+      <li><div class="divider"></div></li>
+      <li><a href="#">BBQ Smokers</a></li>
+      <li><a href="#">BBQ Insulated</a></li>
+      <li><a href="#">BBQ Grills</a></li>
+      <li><a href="#">Rotisseries</a></li>
+      <li><div class="divider"></div></li>
+      <li class="subheader brown-text lighten-2">Backyard Products</li>
+      <li><div class="divider"></div></li>
+      <li><a href="#">BBQ Smokers</a></li>
+      <li><a href="#">BBQ Grills</a></li>
+      <li><a href="#">BBQ Pits</a></li>
+    </ul>
+  </header>
+
+  <ui-view></ui-view>
+
+  <footer class="page-footer black">
     <div class="container">
-      <p>© 2016 Copyright Old Country BBQ Pits <a class="right" href="www.linkedin.com/in/shadtek"><i class="tiny material-icons">grade</i> Site by Spencer Shattuck</a></p>
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <p class="grey-text text-lighten-4">Old Country BBQ Pits</p>
+          <p class="grey-text text-lighten-4"><a href="https://goo.gl/Jn7oOk">6700 Santa Maria Ave. Laredo, Texas 78041</a></p>
+          <p class="grey-text text-lighten-4"><a href="tel:9562866389">(956) 286-6389</a></p>
+          <p class="grey-text text-lighten-4"><a href="mailto:smokers@oldcountrybbqpits.com">smokers@oldcountrybbqpits.com</a></p>
+          <p><img class="responsive-img" src="http://bbquepits.com/mc_vs_ax_accpt_h_023_gif.gif"></p>
+          <div class="divider"></div>
+          <h5 class="white-text">Links</h5>
+          <p class="grey-text text-lighten-4"><a href="http://www.bbqtv.com/">BQTV.com</a> > is the source for BBQ competition coverage, > cooking tips, sauces, rubs, grills, equipment and > anything to do with barbecue. BBQTV also > features a free newsletter, the BBQ Mall and > WebCasts of BBQTV programs</p>
+          <p class="grey-text text-lighten-4"><a href="http://www.jurassicpork.com/">Jurrassic Pork.com</a> > Best Site for BBQ Insight<br><a href="http://www.jurassicpork.com/"><img class="responsive-img" width="100" src="http://bbquepits.com/porkfront6.jpg"></a></p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">This site is a member of <a target="_blank" href="http://www.thesmokering.com/">The Smoke Ring<br><img class="responsive-img" src="http://bbquepits.com/smokering.gif"></a></h5>
+          <p class="white-text">A service of <a href="http://www.netrelief.com/">netRelief, Inc.</a></p>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">skip_next</i> Next</a></li>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">fast_forward</i> Skip Next</a></li>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">forward_5</i> Next 5</a></li>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">skip_previous</i> Prev</a></li>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">fast_rewind</i> Skip Prev</a></li>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="extra-small material-icons">shuffle</i> Random Site</a></li>
+          </ul>
+          <p class="grey-text text-lighten-3"><a href="http://www.thesmokering.com/join.jsp">Join the ring</a> or <a href="http://www.thesmokering.com/index.jsp">browse</a> a complete <a href="http://www.thesmokering.com/index.jsp">list</a> of The Smoke Ring members</p>
+          <p class="grey-text text-lighten-3">If you discover problems with any of <a target="_blank" href="http://www.thesmokering.com/">The Smoke Ring</a> sites, please notify the <a target="_blank" href="http://www.thesmokering.com/contactus.jsp">Ringmaster</a></p>
+        </div>
+      </div>
     </div>
-  </div>
-</footer>
-  
+    <div class="footer-copyright">
+      <div class="container">
+        <p>© 2016 Copyright Old Country BBQ Pits <a class="right" href="www.linkedin.com/in/shadtek"><i class="tiny material-icons">grade</i> Site by Spencer Shattuck</a></p>
+      </div>
+    </div>
+  </footer>
 
   <!--Import jQuery before materialize.js-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
