@@ -20,6 +20,7 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     // state;
 
+    // For any unmatched url, redirect to "/"
     .state('otherwise', {
     url: '*path',
     resolve: {
