@@ -9,6 +9,7 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl: "pages/home.html"
       // ,
       // controller: 'homeCtrl'
+
     })
     // state;
     // state
@@ -19,6 +20,23 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
       // controller: 'productsCtrl'
     })
     // state;
+    // state
+    .state('products.portable', {
+      url: "/portable",
+      templateUrl: "pages/portable.html"
+      // ,
+      // controller: 'productsCtrl'
+    })
+    // state;
+    // state
+    .state('products.backyard', {
+      url: "/backyard",
+      templateUrl: "pages/backyard.html"
+      // ,
+      // controller: 'productsCtrl'
+    })
+    // state;
+
 
     // For any unmatched url, redirect to "/"
     .state('otherwise', {
