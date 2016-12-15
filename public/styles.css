@@ -4,7 +4,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.9) 100%), url('background2.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,1) 100%), url('background2.jpg');
   background-repeat: no-repeat;
 }
 
@@ -62,4 +62,3 @@ a {
 		padding-left: 1rem;
 	}
 }
-

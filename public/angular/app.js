@@ -2,6 +2,8 @@ var app = angular.module('oldcountry', ['ui.router']);
 
 app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 
+  $urlRouterProvider.otherwise('/');
+
   $stateProvider
     // state
     .state('home', {
@@ -36,18 +38,6 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
       // controller: 'productsCtrl'
     })
     // state;
-
-
-    // For any unmatched url, redirect to "/"
-    .state('otherwise', {
-    url: '*path',
-    resolve: {
-      redirect: function($location) {
-        $location.path("/").replace()
-        console.log("redirecting...")
-      }
-    }
-    });
 
     $locationProvider.html5Mode(true);
 
