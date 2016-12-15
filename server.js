@@ -1,70 +1,14 @@
 var express = require('express');
 
-// app setup
+var port = process.env.EXPRESS_PORT || 3000;
 var app = express();
-var router = express.Router();
-var path = __dirname + '/public/';
-var port = 8080;
 
-// setup the app middlware
-// app.use(express.static('./public'));
+app.use(express.static(__dirname + '/public'));
 
-router.use(function (req,res,next) {
-  console.log("/" + req.method);
-  next();
+app.all('*', function(req, res, next) {
+    res.sendFile('/public/index.html', { root: __dirname });
 });
 
-router.get("/",function(req,res){
-  res.sendFile(path + "index.html");
+app.listen(port, function(err){
+  console.log('connected at ', port);
 });
-
-router.get("/about",function(req,res){
-  res.sendFile(path + "about.html");
-});
-
-router.get("/contact",function(req,res){
-  res.sendFile(path + "contact.html");
-});
-
-app.use("/",router);
-
-app.use("*",function(req,res){
-  res.sendFile(path + "404.html");
-});
-
-app.listen(port, function() {
-	console.log('Server up and running on port: ', port);
-});
-
-// node router example:
-// var express = require("express");
-// var app = express();
-// var router = express.Router();
-// var path = __dirname + '/views/';
-
-// router.use(function (req,res,next) {
-//   console.log("/" + req.method);
-//   next();
-// });
-
-// router.get("/",function(req,res){
-//   res.sendFile(path + "index.html");
-// });
-
-// router.get("/about",function(req,res){
-//   res.sendFile(path + "about.html");
-// });
-
-// router.get("/contact",function(req,res){
-//   res.sendFile(path + "contact.html");
-// });
-
-// app.use("/",router);
-
-// app.use("*",function(req,res){
-//   res.sendFile(path + "404.html");
-// });
-
-// app.listen(3000,function(){
-//   console.log("Live at Port 3000");
-// });
