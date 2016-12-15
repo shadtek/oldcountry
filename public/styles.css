@@ -41,16 +41,20 @@ a {
 	.brand-logo.left {
 		font-size: 1.4rem;
 	}
+
+	.footer-copyright {
+		overflow: visible !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.brand-logo.left.flow-text > .tiny.material-icons {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 767px) {
 	.brand-logo.left {
 		padding-left: 1rem;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.footer-copyright {
-		overflow: visible !important;
 	}
 }
