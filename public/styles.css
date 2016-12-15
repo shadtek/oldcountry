@@ -7,6 +7,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.greyred {
+	background: linear-gradient(grey, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 h5, h6, p, li, a {
 	font-family: 'Oxygen', sans-serif;
 }
@@ -32,9 +38,6 @@ a {
 
 .brand-logo.left {
 	font-family: 'Ultra', serif;
-	background: linear-gradient(grey, red);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 767px) {
@@ -58,3 +61,4 @@ a {
 		padding-left: 1rem;
 	}
 }
+
