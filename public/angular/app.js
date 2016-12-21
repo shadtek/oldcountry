@@ -8,9 +8,8 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     // state
     .state('home', {
       url: "/",
-      templateUrl: "pages/home.html"
-      // ,
-      // controller: 'homeCtrl'
+      templateUrl: "pages/home.html",
+      controller: 'homeCtrl'
 
     })
     // state;
