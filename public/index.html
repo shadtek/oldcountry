@@ -51,12 +51,12 @@
           <a href="/" class="greyred brand-logo left flow-text"><i class="tiny material-icons">grade</i>Old Country BBQ Pits<i class="right tiny material-icons">grade</i></a>
           <!-- Desktop Nav -->
           <ul class="right hide-on-med-and-down">
-            <li><a ng-click="scrollTo('home')" class="brown-text lighten-2">Home</a></li>
+            <li><a ng-click="goTo('home')" class="brown-text lighten-2">Home</a></li>
             <li><a class="dropdown brown-text lighten-2" data-activates='dropdown1'>Our Company</a></li>
             <ul id='dropdown1' class='dropdown-content brown lighten-5'>
-              <li><a class="waves-effect" ng-click="scrollTo('about-us')">About Us</a></li>
-              <li><a class="waves-effect" ng-click="scrollTo('delivery-info')">Delivery Info</a></li>
-              <li><a class="waves-effect" ng-click="scrollTo('contact-us')">Contact Us</a></li>
+              <li><a class="waves-effect" ng-click="goTo('about-us')">About Us</a></li>
+              <li><a class="waves-effect" ng-click="goTo('delivery-info')">Delivery Info</a></li>
+              <li><a class="waves-effect" ng-click="goTo('contact-us')">Contact Us</a></li>
             </ul>
             <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Trailer Products</a></li>
             <ul id='dropdown2' class='dropdown-content brown lighten-5'>
@@ -78,10 +78,10 @@
     </div>
     <!-- Mobile Nav -->
     <ul id="slide-out" class="side-nav brown lighten-5">
-      <li><a href="/">Home</a></li>
-      <li><a ng-click="scrollTo('about-us')">About Us</a></li>
-      <li><a ng-click="scrollTo('delivery-info')">Delivery Info</a></li>
-      <li><a ng-click="scrollTo('contact-us')">Contact Us</a></li>
+      <li><a ng-click="goTo('home')">Home</a></li>
+      <li><a ng-click="goTo('about-us')">About Us</a></li>
+      <li><a ng-click="goTo('delivery-info')">Delivery Info</a></li>
+      <li><a ng-click="goTo('contact-us')">Contact Us</a></li>
       <li><div class="divider"></div></li>
       <li class="subheader brown-text lighten-2">Trailer Products</li>
       <li><div class="divider"></div></li>
