@@ -2,22 +2,23 @@
 Website for Old Country BBQ Pits
 
 Home
-	Products links
-		Portable
-		Backyard
-	Text Area
-	Contact Info
-	About us
-	Testimonials
-	Delivery Info
-	Smoke Ring
-Products
-	Portable Trailers
+	Products links = Done
+		Portable = Done
+		Backyard = Done
+	Text Area = Done
+	Contact Info = Done
+	About us = Done
+	Testimonials = Working
+	Delivery Info = Done
+	Why insulated?
+	Smoke Ring = Done
+Products  = Built
+	Portable Trailers = Not Framed
 		BBQ Smokers
 		BBQ Smokers - Insulated
 		BBQ Grills
 		Rotisseries
-	Backyard
+	Backyard = Not Framed
 		BBQ Smokers
 		BBQ Grills
 		BBQ Pits
