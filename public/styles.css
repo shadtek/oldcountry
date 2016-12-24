@@ -62,3 +62,10 @@ a {
 		padding-left: 1rem;
 	}
 }
+
+.orange-dotted {
+	border: 2px dotted #e65100;
+	border-style: none none dashed;
+	color: #e65100;
+	z-index: 20;
+}
