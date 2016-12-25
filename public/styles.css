@@ -69,3 +69,7 @@ a {
 	color: #e65100;
 	z-index: 20;
 }
+
+/*#portable > div > div > div > div.card-content > span {
+	font-size: calc(0.75em + 1vmin);
+}*/

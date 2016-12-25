@@ -13,12 +13,12 @@ Home
 	Why insulated? = Done
 	Smoke Ring = Done
 Products  = Done
-	Portable Trailers = Not Framed
+	Portable Trailers = Lead done, not framed
 		BBQ Smokers
 		BBQ Smokers - Insulated
 		BBQ Grills
 		Rotisseries
-	Backyard = Not Framed
+	Backyard = Lead done, not framed
 		BBQ Smokers
 		BBQ Grills
 		BBQ Pits

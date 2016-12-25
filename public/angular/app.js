@@ -1,4 +1,4 @@
-var app = angular.module('oldcountry', ['ui.router']);
+var app = angular.module('oldcountry', ['ui.router', 'ngFitText']);
 
 app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 
