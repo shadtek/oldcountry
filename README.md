@@ -8,11 +8,11 @@ Home
 	Text Area = Done
 	Contact Info = Done
 	About us = Done
-	Testimonials = Working
+	Testimonials = Done
 	Delivery Info = Done
-	Why insulated?
+	Why insulated? = Done
 	Smoke Ring = Done
-Products  = Built
+Products  = Done
 	Portable Trailers = Not Framed
 		BBQ Smokers
 		BBQ Smokers - Insulated

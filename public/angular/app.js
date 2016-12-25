@@ -8,33 +8,31 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     // state
     .state('home', {
       url: "/",
-      templateUrl: "pages/home.html",
-      controller: 'homeCtrl'
-
+      templateUrl: "pages/home.html"
     })
     // state;
     // state
     .state('products', {
       url: "/products",
       templateUrl: "pages/products.html"
-      // ,
-      // controller: 'productsCtrl'
     })
     // state;
     // state
     .state('products.portable', {
       url: "/portable",
       templateUrl: "pages/portable.html"
-      // ,
-      // controller: 'productsCtrl'
     })
     // state;
     // state
     .state('products.backyard', {
       url: "/backyard",
       templateUrl: "pages/backyard.html"
-      // ,
-      // controller: 'productsCtrl'
+    })
+    // state;
+    // state
+    .state('insulated', {
+      url: "/insulated",
+      templateUrl: "pages/insulated.html"
     })
     // state;
 

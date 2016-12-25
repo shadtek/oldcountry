@@ -6,7 +6,7 @@ app.run(['$anchorScroll', function($anchorScroll) {
 
 app.controller('mainCtrl', function($scope, $location, $anchorScroll, $timeout){
 
-	$scope.goTo = function(id) {
+	$scope.scrollTo = function(id) {
 		$location.path("/");
 
 		$timeout(function(){

@@ -51,52 +51,54 @@
           <a href="/" class="greyred brand-logo left flow-text"><i class="tiny material-icons">grade</i>Old Country BBQ Pits<i class="right tiny material-icons">grade</i></a>
           <!-- Desktop Nav -->
           <ul class="right hide-on-med-and-down">
-            <li><a ng-click="goTo('home')" class="brown-text lighten-2">Home</a></li>
+            <li><a ng-click="scrollTo('home')" class="brown-text lighten-2">Home</a></li>
             <li><a class="dropdown brown-text lighten-2" data-activates='dropdown1'>Our Company</a></li>
             <ul id='dropdown1' class='dropdown-content brown lighten-5'>
-              <li><a class="waves-effect" ng-click="goTo('about-us')">About Us</a></li>
-              <li><a class="waves-effect" ng-click="goTo('delivery-info')">Delivery Info</a></li>
-              <li><a class="waves-effect" ng-click="goTo('comments')">Comments</a></li>
-              <li><a class="waves-effect" ng-click="goTo('contact-us')">Contact Us</a></li>
+              <li><a class="waves-effect" ng-click="scrollTo('about-us')">About Us</a></li>
+              <li><a class="waves-effect" ui-sref="insulated" ng-click="scrollTo('insulated')">Insulated</a></li>
+              <li><a class="waves-effect" ng-click="scrollTo('delivery-info')">Delivery Info</a></li>
+              <li><a class="waves-effect" ng-click="scrollTo('comments')">Comments</a></li>
+              <li><a class="waves-effect" ng-click="scrollTo('contact-us')">Contact Us</a></li>
             </ul>
-            <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Trailer Products</a></li>
+            <li><a ui-sref="products.portable" ng-click="scrollTo('portable')" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Trailer Products</a></li>
             <ul id='dropdown2' class='dropdown-content brown lighten-5'>
-              <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
-              <li><a class="waves-effect" href="#">BBQ Smokers - Insulated</a></li>
-              <li><a class="waves-effect" href="#">BBQ Grills</a></li>
-              <li><a class="waves-effect" href="#">Rotisseries</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable')">BBQ Smokers</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable')">BBQ Smokers - Insulated</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable')">BBQ Grills</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable')">Rotisseries</a></li>
             </ul>
-            <li><a href="#" class="dropdown brown-text lighten-2" data-activates='dropdown3'>Backyard Products</a></li>
+            <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')" class="dropdown brown-text lighten-2" data-activates='dropdown3'>Backyard Products</a></li>
             <ul id='dropdown3' class='dropdown-content brown lighten-5'>
-              <li><a class="waves-effect" href="#">BBQ Smokers</a></li>
-              <li><a class="waves-effect" href="#">BBQ Grills</a></li>
-              <li><a class="waves-effect" href="#">BBQ Pits</a></li>
+              <li><a class="waves-effect" ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Smokers</a></li>
+              <li><a class="waves-effect" ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Grills</a></li>
+              <li><a class="waves-effect" ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Pits</a></li>
             </ul>
           </ul>
-          <a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons brown-text lighten-2">menu</i></a>
+          <a data-activates="slide-out" class="right button-collapse"><i class="material-icons brown-text lighten-2">menu</i></a>
         </div>
       </nav>
     </div>
     <!-- Mobile Nav -->
     <ul id="slide-out" class="side-nav brown lighten-5">
-      <li><a ng-click="goTo('home')">Home</a></li>
-      <li><a ng-click="goTo('about-us')">About Us</a></li>
-      <li><a ng-click="goTo('delivery-info')">Delivery Info</a></li>
-      <li><a ng-click="goTo('comments')">Comments</a></li>
-      <li><a ng-click="goTo('contact-us')">Contact Us</a></li>
+      <li><a ng-click="scrollTo('home')">Home</a></li>
+      <li><a ng-click="scrollTo('about-us')">About Us</a></li>
+      <li><a ui-sref="insulated" ng-click="scrollTo('insulated')">Insulated BBQ</a></li>
+      <li><a ng-click="scrollTo('delivery-info')">Delivery Info</a></li>
+      <li><a ng-click="scrollTo('comments')">Comments</a></li>
+      <li><a ng-click="scrollTo('contact-us')">Contact Us</a></li>
       <li><div class="divider"></div></li>
       <li class="subheader brown-text lighten-2">Trailer Products</li>
       <li><div class="divider"></div></li>
-      <li><a href="#">BBQ Smokers</a></li>
-      <li><a href="#">BBQ Insulated</a></li>
-      <li><a href="#">BBQ Grills</a></li>
-      <li><a href="#">Rotisseries</a></li>
+      <li><a ui-sref="products.portable" ng-click="scrollTo('portable')">BBQ Smokers</a></li>
+      <li><a ui-sref="products.portable" ng-click="scrollTo('portable')">BBQ Insulated</a></li>
+      <li><a ui-sref="products.portable" ng-click="scrollTo('portable')">BBQ Grills</a></li>
+      <li><a ui-sref="products.portable" ng-click="scrollTo('portable')">Rotisseries</a></li>
       <li><div class="divider"></div></li>
       <li class="subheader brown-text lighten-2">Backyard Products</li>
       <li><div class="divider"></div></li>
-      <li><a href="#">BBQ Smokers</a></li>
-      <li><a href="#">BBQ Grills</a></li>
-      <li><a href="#">BBQ Pits</a></li>
+      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Smokers</a></li>
+      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Grills</a></li>
+      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Pits</a></li>
     </ul>
   </header>
 
@@ -121,12 +123,12 @@
           <h5 class="brown-text text-lighten-5">This site is a member of <a target="_blank" href="http://www.thesmokering.com/">The Smoke Ring<br><img class="responsive-img" src="http://bbquepits.com/smokering.gif"></a></h5>
           <p class="brown-text text-lighten-5">A service of <a href="http://www.netrelief.com/">netRelief, Inc.</a></p>
           <ul>
-            <li><a class="brown-text text-lighten-5" href="#"><i class="extra-small material-icons">skip_next</i> Next</a></li>
-            <li><a class="brown-text text-lighten-5" href="#"><i class="extra-small material-icons">fast_forward</i> Skip Next</a></li>
-            <li><a class="brown-text text-lighten-5" href="#"><i class="extra-small material-icons">forward_5</i> Next 5</a></li>
-            <li><a class="brown-text text-lighten-5" href="#"><i class="extra-small material-icons">skip_previous</i> Prev</a></li>
-            <li><a class="brown-text text-lighten-5" href="#"><i class="extra-small material-icons">fast_rewind</i> Skip Prev</a></li>
-            <li><a class="brown-text text-lighten-5" href="#"><i class="extra-small material-icons">shuffle</i> Random Site</a></li>
+            <li><a class="brown-text text-lighten-5" href="http://www.thesmokering.com/next.asp?id=1435"><i class="extra-small material-icons">skip_next</i> Next</a></li>
+            <li><a class="brown-text text-lighten-5" href="http://www.thesmokering.com/skip.asp?id=1435"><i class="extra-small material-icons">fast_forward</i> Skip Next</a></li>
+            <li><a class="brown-text text-lighten-5" href="http://www.thesmokering.com/next5.asp?id=1435"><i class="extra-small material-icons">forward_5</i> Next 5</a></li>
+            <li><a class="brown-text text-lighten-5" href="http://www.thesmokering.com/prev.asp?id=1435"><i class="extra-small material-icons">skip_previous</i> Prev</a></li>
+            <li><a class="brown-text text-lighten-5" href="http://www.thesmokering.com/sprev.asp?id=1435"><i class="extra-small material-icons">fast_rewind</i> Skip Prev</a></li>
+            <li><a class="brown-text text-lighten-5" href="http://www.thesmokering.com/random.asp?id=1435"><i class="extra-small material-icons">shuffle</i> Random Site</a></li>
           </ul>
           <p class="brown-text text-lighten-5"><a href="http://www.thesmokering.com/join.jsp">Join the ring</a> or <a href="http://www.thesmokering.com/index.jsp">browse</a> a complete <a href="http://www.thesmokering.com/index.jsp">list</a> of The Smoke Ring members</p>
           <p class="brown-text text-lighten-5">If you discover problems with any of <a target="_blank" href="http://www.thesmokering.com/">The Smoke Ring</a> sites, please notify the <a target="_blank" href="http://www.thesmokering.com/contactus.jsp">Ringmaster</a></p>
@@ -176,7 +178,6 @@
   <!-- Angular App -->
   <script src='angular/app.js'></script>
   <script src='angular/mainCtrl.js'></script>
-  <script src='pages/homeCtrl.js'></script>
 
 </body>
 
