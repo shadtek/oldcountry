@@ -10,15 +10,15 @@ Home
 	About us = Done
 	Testimonials = Done
 	Delivery Info = Done
-	Why insulated? = Done
+	Science of Insulated = Done
 	Smoke Ring = Done
 Products  = Done
-	Portable Trailers = Lead done, not framed
-		BBQ Smokers
-		BBQ Smokers - Insulated
-		BBQ Grills
-		Rotisseries
-	Backyard = Lead done, not framed
+	Portable Trailers = Done
+		BBQ Smokers = Lead
+		BBQ Smokers - Insulated = Lead
+		BBQ Grills = Lead
+		Rotisseries = Lead
+	Backyard = Done
 		BBQ Smokers
 		BBQ Grills
 		BBQ Pits

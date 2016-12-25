@@ -12,7 +12,7 @@ app.controller('mainCtrl', function($scope, $location, $anchorScroll, $timeout){
 		$timeout(function(){
 			$location.hash(id);
 			$anchorScroll();
-		}, 200);
+		}, 300);
 	}
 
 })
