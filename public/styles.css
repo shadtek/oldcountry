@@ -18,10 +18,6 @@ h5, h6, p, li, a {
 	font-family: 'Oxygen', sans-serif;
 }
 
-.exclaim {
-	color: #d7ccc8;
-}
-
 a {
 	color: #e65100 !important;
 }
@@ -39,6 +35,13 @@ a {
 
 .brand-logo.left {
 	font-family: 'Ultra', serif;
+}
+
+.orange-dotted {
+	border: 2px dotted #e65100;
+	border-style: none none dashed;
+	color: #e65100;
+	z-index: 20;
 }
 
 @media screen and (max-width: 767px) {
@@ -61,15 +64,4 @@ a {
 	.brand-logo.left {
 		padding-left: 1rem;
 	}
-}
-
-.orange-dotted {
-	border: 2px dotted #e65100;
-	border-style: none none dashed;
-	color: #e65100;
-	z-index: 20;
-}
-
-#portable > div > div > div > div.card-content > span {
-	white-space: nowrap;
 }
