@@ -14,7 +14,7 @@ Home
 	Smoke Ring = Done
 Products  = Done
 	Portable Trailers = Done
-		BBQ Smokers = Framed, needs styling
+		BBQ Smokers = Need to build "More photos"
 		BBQ Smokers - Insulated = Lead
 		BBQ Grills = Lead
 		Rotisseries = Lead
