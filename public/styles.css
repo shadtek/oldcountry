@@ -66,6 +66,10 @@ a {
   width: 100%;
 }
 
+.no-body {
+	cursor: default !important;
+}
+
 @media screen and (max-width: 767px) {
 	.brand-logo.left {
 		font-size: 1.4rem;
