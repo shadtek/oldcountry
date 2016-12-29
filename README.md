@@ -16,11 +16,13 @@ Home
 	Smoke Ring = Done
 Products  = Done
 	Portable Trailers = Done
-		BBQ Smokers = Needs conent to be filled in.
-		BBQ Smokers - Insulated = Need to copy card template and fill content.
+		BBQ Smokers = Done
+		BBQ Smokers - Insulated = Done
 		BBQ Grills = Need to copy card template and fill content.
 		Rotisseries = Need to copy card template and fill content.
 	Backyard = Done
 		BBQ Smokers = Need to copy card template and fill content.
 		BBQ Grills = Need to copy card template and fill content.
 		BBQ Pits = Need to copy card template and fill content.
+
+^Fix responsive grid so thumbnail images are so pinheady.
