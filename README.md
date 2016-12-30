@@ -24,5 +24,3 @@ Products  = Done
 		BBQ Smokers = Need to copy card template and fill content.
 		BBQ Grills = Need to copy card template and fill content.
 		BBQ Pits = Need to copy card template and fill content.
-
-^Fix responsive grid so thumbnail images are so pinheady.
