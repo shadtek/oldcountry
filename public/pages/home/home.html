@@ -77,7 +77,7 @@
 
 	    <p>Take a look around, you will like what you see!</p>
 
-	    <h5 class="center-align"><a ui-sref="insulated" ng-click="scrollTo('insulated')">Insulated BBQ Smokers???!!! Why??? Warning! Science Content... good to know!!!</a></h5>
+	    <h5 class="center-align"><a ui-sref="products.insulated" ng-click="scrollTo('insulated')">Insulated BBQ Smokers???!!! Why??? Warning! Science Content... good to know!!!</a></h5>
       <h4 class="center-align">Comments or questions? <a href="#contact-us">Contact us!</a></h4>
     </div>
   </div>
@@ -205,7 +205,6 @@
 
 <script>
   $(document).ready(function(){
-
     $('.modal').modal({
       dismissible: true, // Modal can be dismissed by clicking outside of the modal
       opacity: .5, // Opacity of modal background
@@ -214,6 +213,6 @@
       // starting_top: '80%', // Starting top style attribute
       // ending_top: '10%'
     });
-
+    window.scrollTo(0,0);
   });
 </script>

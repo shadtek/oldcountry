@@ -50,27 +50,27 @@
           <a href="/" class="greyred brand-logo left flow-text"><i class="tiny material-icons">grade</i>Old Country BBQ Pits<i class="right tiny material-icons">grade</i></a>
           <!-- Desktop Nav -->
           <ul class="right hide-on-med-and-down">
-            <li><a ng-click="scrollTo('home')" class="brown-text lighten-2">Home</a></li>
+            <li><a ui-sref="home" class="brown-text lighten-2">Home</a></li>
             <li><a class="dropdown brown-text lighten-2" data-activates='dropdown1'>Our Company</a></li>
             <ul id='dropdown1' class='dropdown-content brown lighten-5'>
               <li><a class="waves-effect" ng-click="scrollTo('about-us')">About Us</a></li>
-              <li><a class="waves-effect" ui-sref="insulated" ng-click="scrollTo('insulated')">Insulated</a></li>
+              <li><a class="waves-effect" ui-sref="products.insulated">Insulated BBQs</a></li>
               <li><a class="waves-effect" ng-click="scrollTo('delivery-info')">Delivery Info</a></li>
               <li><a class="waves-effect" ng-click="scrollTo('comments')">Comments</a></li>
               <li><a class="waves-effect" ng-click="scrollTo('contact-us')">Contact Us</a></li>
             </ul>
-            <li><a ui-sref="products.portable" ng-click="scrollTo('portable')" class="dropdown brown-text lighten-2" data-activates='dropdown2'>Trailer Products</a></li>
+            <li><a class="dropdown brown-text lighten-2" data-activates='dropdown2'>Trailer Products</a></li>
             <ul id='dropdown2' class='dropdown-content brown lighten-5'>
-              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable-smokers')">BBQ Smokers</a></li>
-              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable-insulated')">BBQ Smokers - Insulated</a></li>
-              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable-grills')">BBQ Grills</a></li>
-              <li><a class="waves-effect" ui-sref="products.portable" ng-click="scrollTo('portable-rotisseries')">Rotisseries</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable-smokers">BBQ Smokers</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable-insulated">BBQ Smokers - Insulated</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable-grills">BBQ Grills</a></li>
+              <li><a class="waves-effect" ui-sref="products.portable-rotisseries">Rotisseries</a></li>
             </ul>
-            <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')" class="dropdown brown-text lighten-2" data-activates='dropdown3'>Backyard Products</a></li>
+            <li><a class="dropdown brown-text lighten-2" data-activates='dropdown3'>Backyard Products</a></li>
             <ul id='dropdown3' class='dropdown-content brown lighten-5'>
-              <li><a class="waves-effect" ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Smokers</a></li>
-              <li><a class="waves-effect" ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Grills</a></li>
-              <li><a class="waves-effect" ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Pits</a></li>
+              <li><a class="waves-effect" ui-sref="products.backyard">BBQ Smokers</a></li>
+              <li><a class="waves-effect" ui-sref="products.backyard">BBQ Grills</a></li>
+              <li><a class="waves-effect" ui-sref="products.backyard">BBQ Pits</a></li>
             </ul>
           </ul>
           <a data-activates="slide-out" class="right button-collapse"><i class="material-icons brown-text lighten-2">menu</i></a>
@@ -81,24 +81,24 @@
     <ul id="slide-out" class="side-nav brown lighten-5">
       <li><a ng-click="scrollTo('home')">Home</a></li>
       <li><a ng-click="scrollTo('about-us')">About Us</a></li>
-      <li><a ui-sref="insulated" ng-click="scrollTo('insulated')">Insulated BBQ</a></li>
+      <li><a ui-sref="products.insulated">Insulated BBQs</a></li>
       <li><a ng-click="scrollTo('delivery-info')">Delivery Info</a></li>
       <li><a ng-click="scrollTo('comments')">Comments</a></li>
       <li><a ng-click="scrollTo('contact-us')">Contact Us</a></li>
       <li><div class="divider"></div></li>
       <li class="subheader brown-text lighten-2">Trailer Products</li>
       <li><div class="divider"></div></li>
-      <li><a ui-sref="products.portable" ng-click="scrollTo('portable-smokers')">BBQ Smokers</a></li>
-      <li><a ui-sref="products.portable" ng-click="scrollTo('portable-insulated')">BBQ Smokers - Insulated</a></li>
-      <li><a ui-sref="products.portable" ng-click="scrollTo('portable-grills')">BBQ Grills</a></li>
-      <li><a ui-sref="products.portable" ng-click="scrollTo('portable-rotisseries')">Rotisseries</a></li>
+      <li><a ui-sref="products.portable-smokers">BBQ Smokers</a></li>
+      <li><a ui-sref="products.portable-insulated">BBQ Smokers - Insulated</a></li>
+      <li><a ui-sref="products.portable-grills">BBQ Grills</a></li>
+      <li><a ui-sref="products.portable-rotisseries">Rotisseries</a></li>
       <li><div class="divider"></div></li>
       <li class="subheader brown-text lighten-2">Backyard Products</li>
       <li><div class="divider"></div></li>
-      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Smokers</a></li>
-      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Grills</a></li>
-      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">BBQ Pits</a></li>
-      <li><a ui-sref="products.backyard" ng-click="scrollTo('backyard')">Outdoor Fire Pits</a></li>
+      <li><a ui-sref="products.backyard">BBQ Smokers</a></li>
+      <li><a ui-sref="products.backyard">BBQ Grills</a></li>
+      <li><a ui-sref="products.backyard">BBQ Pits</a></li>
+      <li><a ui-sref="products.backyard">Outdoor Fire Pits</a></li>
     </ul>
   </header>
 
