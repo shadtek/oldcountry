@@ -31,3 +31,5 @@ Products  = Done
 			All American = Need to copy card template and fill content.
 			Old Country = Need to copy card template and fill content.
 		BBQ Fire Pits = Need to copy card template and fill content.
+
+*Pretty up the card content on home.
