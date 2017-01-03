@@ -15,7 +15,9 @@ Home
 	Smoke Ring = Done
 Products  = Done
 	Science of Insulated = Done
-	Portable Trailers = Done
+	Portable Trailers = need update
+	<!-- Update with this content: http://bbquepits.com/bbq_smokers_photos_2.htm -->
+
 		BBQ Smokers = Done
 		BBQ Smokers - Insulated = Done
 		BBQ Grills = Done
@@ -28,6 +30,7 @@ Products  = Done
 		Pits
 		<!-- No tower but has firebox -->
 			All American
+			<!-- there is cool photo at: http://bbquepits.com/bbq_smokers_photos_2.htm -->
 			Old Country
 		Grills
 		<!-- No tower and nor firebox-->
@@ -37,4 +40,4 @@ Products  = Done
 		Open Fire Pits
 		<!-- Just a firebowl -->
 
-*Pretty up the card content on home.
+<!-- *Pretty up the card content on home. -->

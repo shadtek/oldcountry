@@ -48,25 +48,25 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     // state;
     // state
-    .state('products.backyard', {
+    .state('products.backyard-smokers', {
       url: "/backyard-smokers",
       templateUrl: "pages/products/backyard/backyard-smokers.html"
     })
     // state;
     // state
-    .state('products.backyard', {
+    .state('products.backyard-pits', {
       url: "/backyard-pits",
       templateUrl: "pages/products/backyard/backyard-pits.html"
     })
     // state;
     // state
-    .state('products.backyard', {
+    .state('products.backyard-grills', {
       url: "/backyard-grills",
       templateUrl: "pages/products/backyard/backyard-grills.html"
     })
     // state;
     // state
-    .state('products.backyard', {
+    .state('products.backyard-open-fire-pits', {
       url: "/backyard-open-fire-pits",
       templateUrl: "pages/products/backyard/backyard-open-fire-pits.html"
     })
