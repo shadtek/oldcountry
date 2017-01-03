@@ -19,17 +19,22 @@ Products  = Done
 		BBQ Smokers = Done
 		BBQ Smokers - Insulated = Done
 		BBQ Grills = Done
-		Rotisseries = Need to copy card template and fill content.
-	Backyard = Done
-		BBQ Smokers = Need to copy card template and fill content.
-			All American = Need to copy card template and fill content.
-			Old Country = Need to copy card template and fill content.
-		BBQ Pits = Need to copy card template and fill content.
-			All American = Need to copy card template and fill content.
-			Old Country = Need to copy card template and fill content.
-		BBQ Grills = Need to copy card template and fill content.
-			All American = Need to copy card template and fill content.
-			Old Country = Need to copy card template and fill content.
-		BBQ Fire Pits = Need to copy card template and fill content.
+		Rotisseries = Done
+	Backyard
+		Smokers
+		<!-- Has tower and firebox -->
+			All American 
+			Old Country
+		Pits
+		<!-- No tower but has firebox -->
+			All American
+			Old Country
+		Grills
+		<!-- No tower and nor firebox-->
+			All American
+			Old Country
+			Old Country -Camper
+		Open Fire Pits
+		<!-- Just a firebowl -->
 
 *Pretty up the card content on home.
