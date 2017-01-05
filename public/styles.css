@@ -21,6 +21,7 @@ h5, h6, p, li, a {
 a {
 	color: #e65100 !important;
 }
+
 .subheader {
 	padding-left: 1rem;
 }
@@ -35,6 +36,10 @@ a {
 
 .brand-logo.left {
 	font-family: 'Ultra', serif;
+}
+
+.cards {
+	margin-top: 1rem;
 }
 
 .card .card-content {
