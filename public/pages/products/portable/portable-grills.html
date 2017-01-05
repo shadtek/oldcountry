@@ -27,49 +27,65 @@
               <div class="collapsible-body wrap">
                 <div class="box">
                   <div class="boxInner">
-                    <a href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg" class="swipebox" title="My Caption">
-                      <img/>
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg">
+                      <img />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_01.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_01.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_06.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_06.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_07.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_07.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_04.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_04.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_05.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_05.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_08.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_08.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_09.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_09.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
-                    <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_14.jpg" />
+                    <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_14.jpg">
+                      <img />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -89,12 +105,16 @@
   $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.collapsible').collapsible();
-
     $("a").has("img").each(function(){
       $(this).find("img").attr("src", $(this).attr("href"));
     });
-
-    $('.swipebox').swipebox();
+    $('.swipebox').swipebox({
+      removeBarsOnMobile : false, // false will show top bar on mobile devices
+      hideBarsDelay : 10000, // delay before hiding bars on desktop
+      videoMaxWidth : 1140, // videos max width
+      afterOpen: null, // called after opening
+      loopAtEnd: true // true will return to the first image after the last image is reached
+    });
     window.scrollTo(0,0);
   });
 </script>
