@@ -7,7 +7,9 @@
       <h5 class="card-title brown-text text-lighten-5"><b>NEW PORTABLE BBQ GRILL  PG30X120</b></h5>
       <div class="card brown lighten-5 ">
         <div class="card-image">
-          <img data-caption='NEW PORTABLE BBQ GRILL  PG30X120' src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg">
+          <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg">
+            <img />
+          </a>
         </div>
         <div class="card-content">
           <p>Portable BBQ grill with Texas wagon wheels. Cooking grate cranks up and down.  One on inventory in Houston Texas.<br>
@@ -110,7 +112,7 @@
     });
     $('.swipebox').swipebox({
       removeBarsOnMobile : false, // false will show top bar on mobile devices
-      hideBarsDelay : 10000, // delay before hiding bars on desktop
+      hideBarsDelay : -Infinity, // delay before hiding bars on desktop
       videoMaxWidth : 1140, // videos max width
       afterOpen: null, // called after opening
       loopAtEnd: true // true will return to the first image after the last image is reached
