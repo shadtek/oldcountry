@@ -28,7 +28,7 @@
                 <div class="box">
                   <div class="boxInner">
                     <a href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg" class="swipebox" title="My Caption">
-                      <img src="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg" />
+                      <img/>
                     </a>
                   </div>
                 </div>
@@ -89,6 +89,11 @@
   $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.collapsible').collapsible();
+
+    $("a").has("img").each(function(){
+      $(this).find("img").attr("src", $(this).attr("href"));
+    });
+
     $('.swipebox').swipebox();
     window.scrollTo(0,0);
   });
