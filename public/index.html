@@ -49,8 +49,8 @@
 <body ng-controller="mainCtrl">
   <header>
     <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper brown lighten-5">
+      <nav class="brown lighten-5">
+        <div class="nav-wrapper">
           <a href="/" class="greyred brand-logo left flow-text"><i class="tiny material-icons">grade</i>Old Country BBQ Pits<i class="right tiny material-icons">grade</i></a>
           <!-- Desktop Nav -->
           <ul class="right hide-on-med-and-down">
@@ -156,6 +156,14 @@
   <!-- Frontend Scripts -->
   <script>
     $(document).ready(function(){
+
+      $(window).resize(function() {
+        if ($(window).width() > 1440) {
+          $('.nav-wrapper').addClass('container');
+        } else {
+          $('.nav-wrapper').removeClass('container');
+        }
+      });
 
       $(".button-collapse").sideNav({
         menuWidth: 200, // Default is 240
