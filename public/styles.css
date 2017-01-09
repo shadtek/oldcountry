@@ -38,12 +38,12 @@ a {
 	font-family: 'Ultra', serif;
 }
 
-.cards {
+.home-cards {
 	margin-top: 1rem;
 }
 
 .card .card-content {
-	padding: 5px 10px !important;
+	padding: 5px !important;
 }
 
 .orange-dotted {

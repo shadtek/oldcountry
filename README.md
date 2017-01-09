@@ -41,8 +41,6 @@ Products  = Done
 		<!-- Just a firebowl -->
 
 <!-- *Pretty up the card content on home. -->
-comments overflow on mobile
-margin above cards
 more photos on home
 more white space
 nav on wide screens is spread out
