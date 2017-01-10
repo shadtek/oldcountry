@@ -17,31 +17,26 @@ Products  = Done
 	Science of Insulated = Done
 	Portable Trailers = need update
 	<!-- Update with this content: http://bbquepits.com/bbq_smokers_photos_2.htm -->
-
 		BBQ Smokers = Done
 		BBQ Smokers - Insulated = Done
 		BBQ Grills = Done
 		Rotisseries = Done
-	Backyard
-		Smokers
-		<!-- Has tower and firebox -->
-			All American 
-			Old Country
-		Pits
-		<!-- No tower but has firebox -->
-			All American
+	Backyard = Done
+		Smokers = Done
+			All American = Done
+			Old Country = Done
+		Pits = Done
+			All American = Done
 			<!-- there is cool photo at: http://bbquepits.com/bbq_smokers_photos_2.htm -->
-			Old Country
-		Grills
-		<!-- No tower and nor firebox-->
-			All American
-			Old Country
-			Old Country -Camper
-		Open Fire Pits
-		<!-- Just a firebowl -->
+			Old Country = Done
+		Grills = Done
+			All American = Done
+			Old Country = Done
+			Old Country - Camper = Done
+		Open Fire Pits =
+
 
 <!-- *Pretty up the card content on home. -->
 more photos on home
 more white space
 nav on wide screens is spread out
-more photos - just use a gallery plugin
