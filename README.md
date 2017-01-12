@@ -17,9 +17,9 @@ Products  = Done
 	Science of Insulated = Done
 	Portable Trailers = need update
 	<!-- Update with this content: http://bbquepits.com/bbq_smokers_photos_2.htm -->
-		BBQ Smokers = Done
-		BBQ Smokers - Insulated = Done
-		BBQ Grills = Done
+		BBQ Smokers = Updated with swipebox
+		BBQ Smokers - Insulated = Updated with swipebox
+		BBQ Grills = Updated with swipebox
 		Rotisseries = Done
 	Backyard = Done
 		Smokers = Done
