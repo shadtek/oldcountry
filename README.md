@@ -33,7 +33,7 @@ Products  = Done
 			All American = Done
 			Old Country = Done
 			Old Country - Camper = Done
-		Open Fire Pits =
+		Open Fire Pits = Done
 
 
 <!-- *Pretty up the card content on home. -->
