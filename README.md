@@ -20,7 +20,7 @@ Products  = Done
 		BBQ Smokers = Updated with swipebox
 		BBQ Smokers - Insulated = Updated with swipebox
 		BBQ Grills = Updated with swipebox
-		Rotisseries = Done
+		Rotisseries = Updated with swipebox
 	Backyard = Done
 		Smokers = Done
 			All American = Done
@@ -33,7 +33,7 @@ Products  = Done
 			All American = Done
 			Old Country = Done
 			Old Country - Camper = Done
-		Open Fire Pits = Done
+		Open Fire Pits = Updated with swipebox
 
 
 <!-- *Pretty up the card content on home. -->
