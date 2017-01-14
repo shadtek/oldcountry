@@ -8,7 +8,7 @@
       <div class="card brown lighten-5 ">
         <div class="card-image">
           <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_02.jpg">
-            <img />
+            <img class="product-img" />
           </a>
         </div>
         <div class="card-content">
@@ -30,56 +30,56 @@
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_01.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_06.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_07.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_04.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_05.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_08.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_09.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="portable_bbq_grill_30X120" class="swipebox" href="http://bbquepits.com/images/PORTABLE_BBQ_GRILLS/PORTABLE_BBQ_GRILL_30X120/portable_bbq_grill_30_14.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
@@ -100,8 +100,8 @@
   $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.collapsible').collapsible();
-    $("a").has("img").each(function(){
-      $(this).find("img").attr("src", $(this).attr("href"));
+    $("a").has(".product-img").each(function(){
+      $(this).find(".product-img").attr("src", $(this).attr("href"));
     });
     $('.swipebox').swipebox({
       removeBarsOnMobile : false, // false will show top bar on mobile devices

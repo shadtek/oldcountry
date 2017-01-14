@@ -26,7 +26,7 @@
       <div class="card brown lighten-5 ">
         <div class="card-image">
           <a rel="extended-fire-pit" class="swipebox" title="Extended Grill Outdoor Fire Pit" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-extra-grill/alto-cerrado-1.jpg">
-            <img />
+            <img class="product-img" />
           </a>
         </div>
         <div class="card-content">
@@ -65,35 +65,35 @@
                 <div class="box">
                   <div class="boxInner">
                     <a rel="extended-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-extra-grill/bajo-perfil.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="extended-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-extra-grill/alto-cerrado-2.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="extended-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-extra-grill/bajo-cerrado-1.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="extended-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-extra-grill/bajo-cerrado-2.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="extended-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-extra-grill/bajo-abierto.jpg">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
@@ -117,7 +117,7 @@
       <div class="card brown lighten-5 ">
         <div class="card-image">
           <a rel="double-grill-fire-pit" class="swipebox" title="Double Grill Outdoor Fire Pit" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-half-grill/30-fire-pit-tall-open.JPG">
-            <img />
+            <img class="product-img" />
           </a>
         </div>
         <div class="card-content">
@@ -152,21 +152,21 @@
                 <div class="box">
                   <div class="boxInner">
                     <a rel="double-grill-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-half-grill/30-fire-pit-tall-closed.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="double-grill-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-half-grill/30-fire-pit-low-cerrado.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="double-grill-fire-pit" class="swipebox" href="http://bbquepits.com/images/fire-pits-alfa/fire-pit-half-grill/30-fire-pit-low-abierto.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
@@ -187,8 +187,8 @@
 <script>
   $(document).ready(function(){
     $('.collapsible').collapsible();
-    $("a").has("img").each(function(){
-      $(this).find("img").attr("src", $(this).attr("href"));
+    $("a").has(".product-img").each(function(){
+      $(this).find(".product-img").attr("src", $(this).attr("href"));
     });
     $('.swipebox').swipebox({
       removeBarsOnMobile : false, // false will show top bar on mobile devices

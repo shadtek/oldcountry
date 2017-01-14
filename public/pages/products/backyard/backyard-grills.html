@@ -16,7 +16,9 @@
       <h5 class="card-title brown-text text-lighten-5"><b>20" All American BBQ Grill </b></h5>
       <div class="card brown lighten-5 ">
         <div class="card-image">
-          <img class="materialboxed" data-caption='20" All American BBQ Grill ' src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/AAG20X28.jpg">
+          <a rel="all-american-grills" class="swipebox" title='20" All American BBQ Grill ' href="http://i.imgur.com/MGeVGSq.png">
+            <img class="product-img" />
+          </a>
         </div>
         <div class="card-content">
           <p><b>20" All American BBQ Grill </b><br>
@@ -40,7 +42,9 @@
       <h5 class="card-title brown-text text-lighten-5"><b>Old Country BBQ Grill</b></h5>
       <div class="card brown lighten-5 ">
         <div class="card-image">
-          <img class="materialboxed" data-caption='Old Country BBQ Grill' src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OCG20X30-CLOSED.jpg">
+          <a rel="old-country-grills" class="swipebox" title='Old Country BBQ Grill' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OCG20X30-CLOSED.jpg">
+            <img class="product-img" />
+          </a>
         </div>
         <div class="card-content">
           <p><b>20" Old Country BBQ Grill</b><br>
@@ -68,7 +72,9 @@
       <h5 class="card-title brown-text text-lighten-5"><b>Old Country Camper BBQ Grill</b></h5>
       <div class="card brown lighten-5 ">
         <div class="card-image">
-          <img class="materialboxed" data-caption='Old Country Camper BBQ Grill' src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OCC20X28.jpg">
+          <a rel="old-country-camper-grills" class="swipebox" title='Old Country Camper BBQ Grill' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OCC20X28.jpg">
+            <img class="product-img" />
+          </a>
         </div>
         <div class="card-content">
           <p><b>20" Old Country Camper BBQ Grill</b><br>
@@ -93,8 +99,17 @@
 </section>
 <script>
   $(document).ready(function(){
-  	$('.materialboxed').materialbox();
     $('.collapsible').collapsible();
+    $("a").has(".product-img").each(function(){
+      $(this).find(".product-img").attr("src", $(this).attr("href"));
+    });
+    $('.swipebox').swipebox({
+      removeBarsOnMobile : false, // false will show top bar on mobile devices
+      hideBarsDelay : -Infinity, // delay before hiding bars on desktop
+      videoMaxWidth : 1140, // videos max width
+      afterOpen: null, // called after opening
+      loopAtEnd: true // true will return to the first image after the last image is reached
+    });
     window.scrollTo(0,0);
   });
 </script>

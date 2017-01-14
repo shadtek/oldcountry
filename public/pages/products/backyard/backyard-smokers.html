@@ -24,7 +24,7 @@
       <div class="card brown lighten-5 ">
         <div class="card-image">
           <a rel="BBQ_smoker_AAS20X80" class="swipebox" title='20" All American BBQ Smoker' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_12.JPG">
-            <img />
+            <img class="product-img" />
           </a>
         </div>
         <div class="card-content">
@@ -45,14 +45,14 @@
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_15.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_21.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
@@ -61,28 +61,28 @@
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_22.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_23.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_24.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_26.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
@@ -93,28 +93,28 @@
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_31.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_32.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_33.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
                 <div class="box">
                   <div class="boxInner">
                     <a rel="BBQ_smoker_AAS20X80" class="swipebox" href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS20X80/BBQ_SMOKER_25.JPG">
-                      <img />
+                      <img class="product-img" />
                     </a>
                   </div>
                 </div>
@@ -135,7 +135,7 @@
       <div class="card brown lighten-5 ">
         <div class="card-image">
           <a rel="BBQ_smoker_AAS16X66" class="swipebox" title='16" All American BBQ Smoker' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AAS16X66.jpg">
-            <img />
+            <img class="product-img" />
           </a>
         </div>
         <div class="card-content">
@@ -164,7 +164,7 @@
       <div class="card brown lighten-5 ">
         <div class="card-image">
           <a rel="2-OCS20X76" class="swipebox" title='Old Country BBQ Smoker' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OCS20X76-closed.jpg">
-            <img />
+            <img class="product-img" />
           </a>
         </div>
         <div class="card-content">
@@ -193,8 +193,8 @@
 <script>
   $(document).ready(function(){
     $('.collapsible').collapsible();
-    $("a").has("img").each(function(){
-      $(this).find("img").attr("src", $(this).attr("href"));
+    $("a").has(".product-img").each(function(){
+      $(this).find(".product-img").attr("src", $(this).attr("href"));
     });
     $('.swipebox').swipebox({
       removeBarsOnMobile : false, // false will show top bar on mobile devices

@@ -15,7 +15,9 @@
       <h5 class="card-title brown-text text-lighten-5"><b>All American BBQ Pit</b></h5>
       <div class="card brown lighten-5 ">
         <div class="card-image">
-          <img class="materialboxed" data-caption='All American BBQ Pit' src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AA20X60-closed.jpg">
+          <a rel="all-american-pits" class="swipebox" title='All American BBQ Pit' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_AA/BBQ_smoker_AA20X60-closed.jpg">
+            <img class="product-img" />
+          </a>
         </div>
         <div class="card-content">
           <p><b>20" All American BBQ Pit</b><br>
@@ -29,6 +31,23 @@
           Firebox: 16" wide x 18" long<br>
           Grill Section: 16" diameter x 30" long<br>
           <b>Price $760.00</b></p>
+          <!-- http://bbquepits.com/images/bbq-smoker-photos/patio-island.jpg -->
+        </div>
+        <div class="card-action">
+          <ul class="collapsible" data-collapsible="expandable">
+            <li>
+              <div class="collapsible-header"><a><i class="material-icons">photo_library</i>More Photos</a></div>
+              <div class="collapsible-body wrap">
+                <div class="box">
+                  <div class="boxInner">
+                    <a rel="all-american-pits" class="swipebox" href="http://bbquepits.com/images/bbq-smoker-photos/patio-island.jpg">
+                      <img class="product-img" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -45,7 +64,9 @@
       <h5 class="card-title brown-text text-lighten-5"><b>Old Country BBQ Pit</b></h5>
       <div class="card brown lighten-5 ">
         <div class="card-image">
-          <img class="materialboxed" data-caption='Old Country BBQ Pit' src="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OC20X48-closed.jpg">
+          <a rel="old-country-pits" class="swipebox" title='Old Country BBQ Pit' href="http://bbquepits.com/images/backyard_BBQ_smokers/BBQ_smokers_OC/2-OC20X48-closed.jpg">
+            <img class="product-img" />
+          </a>
         </div>
         <div class="card-content">
           <p><b>20" Old Country BBQ Pit</b><br>
@@ -73,8 +94,17 @@
 </section>
 <script>
   $(document).ready(function(){
-    $('.materialboxed').materialbox();
     $('.collapsible').collapsible();
+    $("a").has(".product-img").each(function(){
+      $(this).find(".product-img").attr("src", $(this).attr("href"));
+    });
+    $('.swipebox').swipebox({
+      removeBarsOnMobile : false, // false will show top bar on mobile devices
+      hideBarsDelay : -Infinity, // delay before hiding bars on desktop
+      videoMaxWidth : 1140, // videos max width
+      afterOpen: null, // called after opening
+      loopAtEnd: true // true will return to the first image after the last image is reached
+    });
     window.scrollTo(0,0);
   });
 </script>
